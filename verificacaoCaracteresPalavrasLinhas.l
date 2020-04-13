@@ -1,3 +1,6 @@
+
+Autor: Antônio Andson da Silva - Ciência da Computação - Campus Quixadá 
+
 /* Escreva um arquivo de entrada Lex para produzir um programa que conte caracteres, palavras e linhas em um
 arquivo de texto e produza um relatório. Defina uma palavra como qualquer sequência de letras e/ou dígitos,
 sem pontuação ou espaços. Pontuação e espaços não contam como palavras. */
@@ -47,15 +50,15 @@ int main(){
     
     for(it = lista.begin(); it != lista.end(); it++){
 		
-			qtdcaractere += *it;
+	qtdcaractere += *it;
 
-	}
+    }
     
     printf("Tem %d caracteres\n",qtdcaractere);    
     printf("Tem %d palavras\n",qtdpalavra);
     printf("Tem %d linhas\n",qtdlinha);  
 	
-	return 0;
+    return 0;
 
 }
 
